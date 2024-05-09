@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#authorName {
+  font-size: 30px;
+}
+
+#quoteOutput {
+  font-size: 50px;
+}
+
+.box h1 {
+  font-size: 60px;
+  margin-block: 40px;
+}
+
+.box p:nth-child(2) {
+  font-size: 1.4rem;
+  margin-block-end: 20px;
+  color: blueviolet;
+}
+
+.box p:nth-child(4) {
+  color: tomato;
+  margin-block-end: 10px;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+
+.box p:nth-child(5) {
+  color: green;
+}
+
+span {
+  color: #000;
+}
+
+.box button {
+  border: none;
+  background-color: rgb(141, 4, 4);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.box button:hover {
+  background-color: red;
+}
